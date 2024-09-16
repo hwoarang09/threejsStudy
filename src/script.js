@@ -30,7 +30,7 @@ const fontLoader = new FontLoader();
 
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
   console.log("loaded");
-  const textGeometry = new TextGeometry("Hanmool", {
+  const textGeometry = new TextGeometry("Hanmool22", {
     font: font,
     size: 0.5,
     depth: 0.2,
